@@ -1,0 +1,18 @@
+h1 { 
+background-color: black;
+color: white;
+float: center;
+}    
+body {
+background-color: beige;
+}
+image {
+float: left;
+border-width: 2px;
+border-color: red;
+size: 200px;
+}
+p {
+float: right;
+font-style: italic;
+}
