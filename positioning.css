@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+}
+#fixed {
+    background-color: lightgrey;
+    position: fixed;
+    height: 100px;
+    width: 200px;
+    top: 0%;
+}
+
+.lorem {
+    margin-top: 10px;
+    margin-right: 150px;
+    margin-left: 150px;
+    text-align: left;
+    display: block;
+}
+
+#relative {
+    background-color: lightgrey;
+    position: relative;
+    margin-right: 150px;
+    margin-left: 150px;
+    display: block;
+    width: 600px;
+    height: 200px;
+    z-index: -1;
+}
+
+#absolute {
+    background-color: grey;
+    position: absolute;
+    bottom: 0%;
+    display: block;
+    right: -7%;
+    width: 250px;
+    height: 100px;
+}
