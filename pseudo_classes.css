@@ -1,0 +1,40 @@
+body {
+    display: block;
+    padding: 0px;
+    margin: 0px;
+}
+a:active {
+    color: lightgrey;
+}
+
+#instagram:hover .fa-brands.fa-instagram.fa-3x  {
+    color: sandybrown;
+}
+
+#pinterest:hover .fa-brands.fa-pinterest.fa-3x {
+    color: indianred;
+}
+
+#blog:hover .fa-brands.fa-wordpress.fa-3x {
+    color: lightskyblue;
+}
+
+a:focus {
+    background-color: white;
+}
+a {
+    margin-right: 10px;
+    color: black;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+p::first-letter {
+    color: darkred;
+    font-weight: bold;
+}
